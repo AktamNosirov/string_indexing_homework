@@ -8,9 +8,9 @@ def main(s):
     """
    
     if s.isdigit() and len(s)==1 :
-        return s
-    elif s.isalpha():
+        return int(s)
+    else:
         return -1   
    
 
-print(main("j"))
+print(main("😁"))
