@@ -6,4 +6,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return str(s[0:n+1]).isalpha()
+print(main('efs4',0))
