@@ -7,10 +7,10 @@ def main(s):
         int: answer
     """
    
-    if str(s).isdigit() and len(s)==1 :
+    if s.isdigit() and len(s)==1 :
         return s
     else:
         return -1   
    
 
-print(main("2"))
+print(main("4"))
