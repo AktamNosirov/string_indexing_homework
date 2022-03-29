@@ -6,8 +6,11 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if str(s[0:n+1]).isalpha() :
-        return s[0:n+1]
-    else:
-        bool(0)
-print(main('efs4',0))
+    if n<=len(s)-1:
+     return str(s[n]) 
+    if n>len(s)-1:
+     return bool(0)
+     
+       
+    
+print(main('efs4',2))
