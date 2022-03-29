@@ -9,8 +9,8 @@ def main(s):
    
     if s.isdigit() and len(s)==1 :
         return s
-    else:
+    elif s.isalpha():
         return -1   
    
 
-print(main("4"))
+print(main("j"))
